@@ -1,3 +1,3 @@
-# 2022秋华中科技大学计算机网络实验
+# 2022 hust computer networking
 
 
