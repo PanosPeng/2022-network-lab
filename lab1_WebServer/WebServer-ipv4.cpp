@@ -87,12 +87,12 @@ int main()
 		if (sessionSocket != INVALID_SOCKET)
 		{
 			printf("Socket accept one client request!\n");
-			//thread talkthread(Session_process, sessionSocket);//开启一个新的线程来处理这一个client的请求
+			thread talkthread(Session_process, sessionSocket);//开启一个新的线程来处理这一个client的请求
 			//Session_process(sessionSocket);//session processing
 			//print client IP b1.b2.b3.b4
 			cout << "client IP:" << (int)clientaddr.sin_addr.S_un.S_un_b.s_b1 << "." << (int)clientaddr.sin_addr.S_un.S_un_b.s_b2 << "." << (int)clientaddr.sin_addr.S_un.S_un_b.s_b3 << "." << (int)clientaddr.sin_addr.S_un.S_un_b.s_b4;
 			cout << "\nclient Port:" << clientaddr.sin_port << "\n\n";
-			//talkthread.detach();关闭线程
+			talkthread.detach();关闭线程
 		}
 	}
 	return 0;
