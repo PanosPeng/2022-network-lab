@@ -15,8 +15,8 @@
 
 ## 配置环境:
 
-- 访问 [http://testipv6.cn/](http://testipv6.cn/)查看运营商是否支持ipv6→cmd输入ipconfig/all→临时 IPv6 地址**************XXXX.XXXX.XXXX.XXXX.XXXX.XXXX.XXXX.XXXX**************
+- 访问 [http://testipv6.cn/](http://testipv6.cn/)查看运营商是否支持ipv6→cmd输入ipconfig/all→临时 IPv6 地址**************XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX**************
 
 ## Web访问:
 
-- **************[XXXX.XXXX.XXXX.XXXX.XXXX.XXXX.XXXX.XXXX]/helloworld.html**************
+- **************[XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX]/helloworld.html**************
